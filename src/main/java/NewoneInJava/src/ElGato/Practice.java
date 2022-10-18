@@ -22,13 +22,13 @@ public class Practice {
         cats.add(cat4);
         cats.add(cat5);
 
-//        CatService.printHowManyCats(cats);
-//        CatService.printWeightOfCats(cats);
-//        CatService.feedCat(cats, "Franky", 150);
-//        CatService.feedCat(cats, "Cookie", 1500 );
-//        CatService.meowCat(cats, "Santa");
-//        CatService.poopCat(cats, "Red");
-//        CatService.printHowManyCats(cats);
+        CatService.printHowManyCats(cats);
+        CatService.printWeightOfCats(cats);
+        CatService.feedCat(cats, "Franky", 150);
+        CatService.feedCat(cats, "Cookie", 1500 );
+        CatService.meowCat(cats, "Santa");
+        CatService.poopCat(cats, "Red");
+        CatService.printHowManyCats(cats);
         System.out.println(cat1);
     }
 }
