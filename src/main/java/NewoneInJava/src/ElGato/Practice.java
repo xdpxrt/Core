@@ -8,7 +8,6 @@ public class Practice {
     public static void main(String[] args) {
 
         List<Cat> cats = new ArrayList<>();
-        double catFood;
 
         Cat cat1 = new Cat("Mickey", Color.BLACK, 4240, true, 5);
         Cat cat2 = new Cat("Cookie",Color.BROWN, 5850, true, 6);
