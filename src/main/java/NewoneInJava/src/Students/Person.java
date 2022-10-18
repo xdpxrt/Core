@@ -8,15 +8,6 @@ public class Person {
     private String gender;
     private int yearOfBirth;
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Person person = (Person) o;
-        return id == person.id && yearOfBirth == person.yearOfBirth && Objects.equals(name, person.name) && Objects.equals(gender, person.gender);
-    }
-
-
     public Person() {
     }
 
@@ -26,6 +17,15 @@ public class Person {
         this.gender = gender;
         this.yearOfBirth = yearOfBirth;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Person person = (Person) o;
+        return id == person.id && yearOfBirth == person.yearOfBirth && Objects.equals(name, person.name) && Objects.equals(gender, person.gender);
+    }
+
 
     @Override
     public String toString() {

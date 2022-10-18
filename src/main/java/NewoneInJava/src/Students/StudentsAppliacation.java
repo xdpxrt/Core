@@ -13,8 +13,6 @@ public class StudentsAppliacation {
         Person student7 = new Person(7, "Terry", "Male", 1992);
         Person student8 = new Person(2, "Sarah", "Female", 1989);
 
-
-        ArrayList<Object> persons = new ArrayList<>();
         ArrayList<Person> students = new ArrayList<>(20);
         students.add(student1);
         students.add(student2);
