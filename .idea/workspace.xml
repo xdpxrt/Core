@@ -5,14 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84e9787b-cb04-414e-a58e-48dea4ee936b" name="Changes" comment="practice">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Core_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/BankStuff/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/BankStuff/CreditCardAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/BankStuff/Terminal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/CompanyStaff/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/CompanyStaff/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/CompanyStaff/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/CompanyStaff/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/CompanyStaff/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/CompanyStaff/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/CompanyStaff/TopManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/ElGato/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/ElGato/Practice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/TheBeginning3/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/SomeBooks/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/TheBeginning3/TheBeginning3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/SomeBooks/TheBeginning3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/TheBeginning3/Utilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/SomeBooks/Utilities.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -61,7 +66,20 @@
       <recent name="C:\Users\xdpxr\IdeaProjects\Core\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NewoneInJava.src.BankStuff.Terminal">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NewoneInJava.src.CompanyStaff.Main" />
+      <module name="Core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NewoneInJava.src.CompanyStaff.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NewoneInJava.src.BankStuff.Terminal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NewoneInJava.src.BankStuff.Terminal" />
       <module name="Core" />
@@ -90,6 +108,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.NewoneInJava.src.BankStuff.Terminal" />
         <item itemvalue="Application.Practice" />
       </list>
@@ -132,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666092433627</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="practice">
+      <created>1666249781779</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666249781779</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,5 +176,12 @@
     <MESSAGE value="init commit" />
     <MESSAGE value="practice" />
     <option name="LAST_COMMIT_MESSAGE" value="practice" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="((Manager)managerList.get(73)).salary" custom="NewoneInJava.src.CompanyStaff.Manager" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

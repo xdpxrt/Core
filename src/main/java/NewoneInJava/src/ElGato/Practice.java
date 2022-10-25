@@ -20,6 +20,7 @@ public class Practice {
         cats.add(cat3);
         cats.add(cat4);
         cats.add(cat5);
+        cats.add(new Cat("Ziggy",Color.BLACK,4390,true,5));
 
         CatService.printHowManyCats(cats);
         CatService.printWeightOfCats(cats);
