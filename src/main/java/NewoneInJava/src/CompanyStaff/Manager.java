@@ -18,7 +18,7 @@ public class Manager extends Employee implements EmployeeService {
     }
 
     public void setSalary() {
-        this.setSalary(ThreadLocalRandom.current().nextInt(20, 30) * 1000);
+        this.setSalary(ThreadLocalRandom.current().nextInt(60, 70) * 1000);
     }
 
     public int getMonthSalary() {

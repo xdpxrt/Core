@@ -14,9 +14,12 @@ public class TopManager extends Employee implements EmployeeService {
     }
 
     public int getMonthSalary() {
-        if (this.bigCompany.getCompanyIncome() >= 1000000) {
+        if (this.bigCompany.getCompanyIncome() >= 10000000) {
             return this.getSalary() + this.getSalary() * 3 / 2;
         }
          else return this.getSalary();
+    }
+    public String toString() {
+        return "TopManager_id" + this.getIndexOfClerk() + ". salary = " + this.getSalary() + ". monthSalary = " + getMonthSalary();
     }
 }

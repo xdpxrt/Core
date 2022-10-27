@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Company {
-    private int companyIncome;
+    private int companyIncome = 0;
 
     List<Employee> employeeList = new ArrayList<>();
 
@@ -15,8 +15,10 @@ public class Company {
         }
         if (employee instanceof Manager) {
             employee.setSalary();
-            ((Manager) employee).getMonthSalary();
-            ((Manager) employee).setIncome();
+            employeeList.add(employee);
+        }
+        if (employee instanceof TopManager) {
+            employee.setSalary();
             employeeList.add(employee);
         }
     }
@@ -30,7 +32,8 @@ public class Company {
     public void countCompanyIncome() {
         for (Employee employee : employeeList) {
             if (employee instanceof Manager) {
-                companyIncome = companyIncome + ((Manager) employee).getIncome();
+                ((Manager) employee).setIncome();
+                companyIncome += ((Manager) employee).getIncome();
             }
         }
     }
@@ -38,5 +41,6 @@ public class Company {
     public int getCompanyIncome() {
         return companyIncome;
     }
+
 }
 

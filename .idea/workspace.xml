@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84e9787b-cb04-414e-a58e-48dea4ee936b" name="Changes" comment="practice">
-      <change afterPath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/CompanyStaff/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/CompanyStaff/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/CompanyStaff/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/CompanyStaff/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/CompanyStaff/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/CompanyStaff/Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/CompanyStaff/TopManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/ElGato/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/ElGato/Practice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/TheBeginning3/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/SomeBooks/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/TheBeginning3/TheBeginning3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/SomeBooks/TheBeginning3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/TheBeginning3/Utilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/SomeBooks/Utilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/CompanyStaff/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/CompanyStaff/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/CompanyStaff/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/CompanyStaff/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/CompanyStaff/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/CompanyStaff/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/CompanyStaff/TopManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/CompanyStaff/TopManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +34,13 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2GGS5z1W8GjIHH68yMsBeHa7VWl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -181,6 +181,7 @@
     <watches-manager>
       <configuration name="Application">
         <watch expression="((Manager)managerList.get(73)).salary" custom="NewoneInJava.src.CompanyStaff.Manager" />
+        <watch expression="topManagerList" />
       </configuration>
     </watches-manager>
   </component>

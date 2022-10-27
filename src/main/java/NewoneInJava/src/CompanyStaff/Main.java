@@ -19,13 +19,14 @@ public class Main {
                 managerList.add(new Manager(i));
             }
             if (i >= 260) {
-                managerList.add(new TopManager(i));
+                topManagerList.add(new TopManager(i));
             }
         }
         bigCompany.hireAll(operatorList);
         bigCompany.hireAll(managerList);
+        bigCompany.hireAll(topManagerList);
         bigCompany.countCompanyIncome();
-//        System.out.println(bigCompany.getCompanyIncome());
-        System.out.println(managerList);
+        System.out.println(bigCompany.getCompanyIncome());
+//        System.out.println(topManagerList);
     }
 }
