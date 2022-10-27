@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84e9787b-cb04-414e-a58e-48dea4ee936b" name="Changes" comment="practice">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/CompanyStaff/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/CompanyStaff/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/CompanyStaff/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/CompanyStaff/Company.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/CompanyStaff/TopManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/CompanyStaff/TopManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +41,7 @@
   </component>
   <component name="ProjectId" id="2GGS5z1W8GjIHH68yMsBeHa7VWl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">

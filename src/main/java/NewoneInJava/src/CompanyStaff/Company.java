@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Company {
-    private int companyIncome = 0;
+    private int companyIncome;
 
     List<Employee> employeeList = new ArrayList<>();
 
@@ -38,8 +38,8 @@ public class Company {
         }
     }
 
-    public static int getCompanyIncome() {
-        return companyIncome;
+    public int getCompanyIncome() {
+        return this.companyIncome;
     }
 
 }

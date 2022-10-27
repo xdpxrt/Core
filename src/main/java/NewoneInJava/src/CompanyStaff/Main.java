@@ -19,7 +19,7 @@ public class Main {
                 managerList.add(new Manager(i));
             }
             if (i >= 260) {
-                topManagerList.add(new TopManager(i));
+                topManagerList.add(new TopManager(i, bigCompany));
             }
         }
         bigCompany.hireAll(operatorList);
