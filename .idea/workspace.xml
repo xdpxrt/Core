@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="84e9787b-cb04-414e-a58e-48dea4ee936b" name="Changes" comment="practice">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/CompanyStaff/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/CompanyStaff/Company.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/CompanyStaff/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/CompanyStaff/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/CompanyStaff/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/CompanyStaff/Manager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/CompanyStaff/TopManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NewoneInJava/src/CompanyStaff/TopManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -158,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666249781779</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="practice">
+      <created>1666868342293</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666868342293</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,6 +183,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="practice" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/NewoneInJava/src/CompanyStaff/Main.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="((Manager)managerList.get(73)).salary" custom="NewoneInJava.src.CompanyStaff.Manager" />

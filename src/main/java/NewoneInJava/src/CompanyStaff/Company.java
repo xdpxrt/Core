@@ -38,7 +38,7 @@ public class Company {
         }
     }
 
-    public int getCompanyIncome() {
+    public static int getCompanyIncome() {
         return companyIncome;
     }
 

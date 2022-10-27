@@ -3,7 +3,7 @@ package NewoneInJava.src.CompanyStaff;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class TopManager extends Employee implements EmployeeService {
-    private Company bigCompany;
+//    private Company bigCompany;
 
     public TopManager(int indexOfClerk) {
         super(indexOfClerk);
@@ -14,11 +14,11 @@ public class TopManager extends Employee implements EmployeeService {
     }
 
     public int getMonthSalary() {
-        if (this.bigCompany.getCompanyIncome() >= 10000000) {
+        if (Company.getCompanyIncome() >= 10000000) {
             return this.getSalary() + this.getSalary() * 3 / 2;
-        }
-         else return this.getSalary();
+        } else return this.getSalary();
     }
+
     public String toString() {
         return "TopManager_id" + this.getIndexOfClerk() + ". salary = " + this.getSalary() + ". monthSalary = " + getMonthSalary();
     }

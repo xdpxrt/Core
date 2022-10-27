@@ -27,6 +27,6 @@ public class Main {
         bigCompany.hireAll(topManagerList);
         bigCompany.countCompanyIncome();
         System.out.println(bigCompany.getCompanyIncome());
-//        System.out.println(topManagerList);
+        System.out.println(topManagerList);
     }
 }
