@@ -1,4 +1,4 @@
-package src.SomeBooks;
+package SomeBooks;
 
 class Utilities {
     public static int daysToRead(int numberOfPages) {

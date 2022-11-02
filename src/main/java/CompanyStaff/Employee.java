@@ -1,4 +1,4 @@
-package src.CompanyStaff;
+package CompanyStaff;
 
 public abstract class Employee implements EmployeeService {
     private int indexOfClerk;

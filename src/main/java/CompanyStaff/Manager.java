@@ -1,4 +1,4 @@
-package src.CompanyStaff;
+package CompanyStaff;
 
 import java.util.concurrent.ThreadLocalRandom;
 

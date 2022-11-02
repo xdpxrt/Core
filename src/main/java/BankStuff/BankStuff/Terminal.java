@@ -1,4 +1,4 @@
-package src.BankStuff;
+package BankStuff.BankStuff;
 
 public class Terminal {
     public static void main(String[] args) {

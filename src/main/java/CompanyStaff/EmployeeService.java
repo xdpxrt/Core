@@ -1,4 +1,4 @@
-package src.CompanyStaff;
+package CompanyStaff;
 
 interface EmployeeService {
     int getMonthSalary();

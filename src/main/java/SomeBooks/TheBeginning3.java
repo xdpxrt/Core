@@ -1,4 +1,4 @@
-package src.SomeBooks;
+package SomeBooks;
 
 public class TheBeginning3 {
     public static void main(String[] args) {

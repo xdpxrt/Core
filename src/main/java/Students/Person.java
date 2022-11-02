@@ -1,4 +1,4 @@
-package src.Students;
+package Students;
 
 import java.util.Objects;
 

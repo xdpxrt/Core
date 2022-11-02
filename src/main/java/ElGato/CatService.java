@@ -1,4 +1,4 @@
-package src.ElGato;
+package ElGato;
 
 import java.util.List;
 import java.util.Optional;

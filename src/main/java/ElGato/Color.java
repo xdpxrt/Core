@@ -1,4 +1,4 @@
-package src.ElGato;
+package ElGato;
 
 public enum Color {
     BLACK("Black"),
