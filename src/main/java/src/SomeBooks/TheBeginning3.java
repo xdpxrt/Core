@@ -1,4 +1,4 @@
-package NewoneInJava.src.SomeBooks;
+package src.SomeBooks;
 
 public class TheBeginning3 {
     public static void main(String[] args) {

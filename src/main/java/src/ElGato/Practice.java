@@ -1,4 +1,4 @@
-package NewoneInJava.src.ElGato;
+package src.ElGato;
 
 import java.util.ArrayList;
 import java.util.List;

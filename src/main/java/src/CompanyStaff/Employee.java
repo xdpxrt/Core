@@ -1,4 +1,4 @@
-package NewoneInJava.src.CompanyStaff;
+package src.CompanyStaff;
 
 public abstract class Employee implements EmployeeService {
     private int indexOfClerk;

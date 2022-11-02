@@ -1,4 +1,4 @@
-package NewoneInJava.src.CompanyStaff;
+package src.CompanyStaff;
 
 interface EmployeeService {
     int getMonthSalary();

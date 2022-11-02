@@ -1,4 +1,4 @@
-package NewoneInJava.src.BankStuff;
+package src.BankStuff;
 
 public class Terminal {
     public static void main(String[] args) {

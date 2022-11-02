@@ -1,4 +1,4 @@
-package NewoneInJava.src.BankStuff;
+package src.BankStuff;
 
 public class CreditCardAccount extends Account {
     public CreditCardAccount() {

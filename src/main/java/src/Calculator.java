@@ -1,4 +1,4 @@
-package NewoneInJava.src;
+package src;
 
 import java.util.Scanner;
 

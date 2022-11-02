@@ -1,4 +1,4 @@
-package NewoneInJava.src.SomeBooks;
+package src.SomeBooks;
 
 class Utilities {
     public static int daysToRead(int numberOfPages) {

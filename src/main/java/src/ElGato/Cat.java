@@ -1,4 +1,4 @@
-package NewoneInJava.src.ElGato;
+package src.ElGato;
 
 public class Cat {
     private String name;

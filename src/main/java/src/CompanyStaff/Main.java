@@ -1,4 +1,4 @@
-package NewoneInJava.src.CompanyStaff;
+package src.CompanyStaff;
 
 import java.util.ArrayList;
 import java.util.List;

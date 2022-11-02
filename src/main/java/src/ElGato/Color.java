@@ -1,4 +1,4 @@
-package NewoneInJava.src.ElGato;
+package src.ElGato;
 
 public enum Color {
     BLACK("Black"),

@@ -1,4 +1,4 @@
-package NewoneInJava.src.SomeBooks;
+package src.SomeBooks;
 
 class Book {
     private String title;

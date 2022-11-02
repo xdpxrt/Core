@@ -1,4 +1,4 @@
-package NewoneInJava.src.Students;
+package src.Students;
 
 import java.util.Objects;
 
