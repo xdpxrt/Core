@@ -1,9 +1,6 @@
 package NewoneInJava.src.CompanyStaff;
 
-import lombok.Data;
-
-@Data
-public abstract class Employee {
+public abstract class Employee implements EmployeeService {
     private int indexOfClerk;
     private int salary;
 
@@ -19,11 +16,11 @@ public abstract class Employee {
         return salary;
     }
 
-    public void setSalary() {
+    public void setSalary(int salary) {
+        this.salary = salary;
     }
 
-    void setZeroSalary() {
-
+    public String toString() {
+        return "Employee(indexOfClerk=" + this.getIndexOfClerk() + ", salary=" + this.getSalary() + ")";
     }
-
 }
