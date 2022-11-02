@@ -38,6 +38,14 @@ public class Company {
         }
     }
 
+    public void fire( int indexOfClerk){
+        for (Employee employee: employeeList){
+            if (indexOfClerk == employee.getIndexOfClerk()){
+                employee.setZeroSalary();
+            }
+        }
+    }
+
     public int getCompanyIncome() {
         return this.companyIncome;
     }

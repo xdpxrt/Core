@@ -16,6 +16,11 @@ public class Operator extends Employee implements EmployeeService {
         return this.getSalary();
     }
 
+    @Override
+    public void setZeroSalary() {
+        this.setSalary(0);
+    }
+
     public String toString() {
         return "Operator_id" + this.getIndexOfClerk() + " Salary = " + this.getMonthSalary();
     }

@@ -22,4 +22,8 @@ public abstract class Employee {
     public void setSalary() {
     }
 
+    void setZeroSalary() {
+
+    }
+
 }

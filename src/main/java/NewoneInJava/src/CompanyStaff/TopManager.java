@@ -20,6 +20,11 @@ public class TopManager extends Employee implements EmployeeService {
         } else return this.getSalary();
     }
 
+    @Override
+    public void setZeroSalary() {
+        this.setSalary(0);
+    }
+
     public String toString() {
         return "TopManager_id" + this.getIndexOfClerk() + ". salary = " + this.getSalary() + ". monthSalary = " + getMonthSalary();
     }

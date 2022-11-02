@@ -25,6 +25,12 @@ public class Manager extends Employee implements EmployeeService {
         return this.getSalary() + this.getIncome() * 5 / 100;
     }
 
+    @Override
+    public void setZeroSalary() {
+        this.setSalary(0);
+        this.income = 0;
+    }
+
     public String toString() {
         return "Manager_id" + this.getIndexOfClerk() + ". income = " + getIncome() + ". salary = " + this.getSalary() + ". monthSalary = " + getMonthSalary();
     }
