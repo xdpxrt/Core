@@ -1,4 +1,4 @@
-package BankStuff.BankStuff;
+package BankStuff;
 
 public class CreditCardAccount extends Account {
     public CreditCardAccount() {

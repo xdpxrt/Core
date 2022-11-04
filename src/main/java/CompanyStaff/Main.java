@@ -29,6 +29,8 @@ public class Main {
         System.out.println(bigCompany.getCompanyIncome());
         bigCompany.fire(2);
         System.out.println(operatorList);
+        bigCompany.printTopSalary(10);
+        bigCompany.printBottomSalary(10);
 
     }
 }

@@ -1,5 +1,7 @@
 package CompanyStaff;
 
+import java.math.BigDecimal;
+
 public abstract class Employee implements EmployeeService {
     private int indexOfClerk;
     private int salary;

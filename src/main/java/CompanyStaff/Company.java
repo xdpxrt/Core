@@ -1,6 +1,7 @@
 package CompanyStaff;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Company {
@@ -38,9 +39,9 @@ public class Company {
         }
     }
 
-    public void fire( int indexOfClerk){
-        for (Employee employee: employeeList){
-            if (indexOfClerk == employee.getIndexOfClerk()){
+    public void fire(int indexOfClerk) {
+        for (Employee employee : employeeList) {
+            if (indexOfClerk == employee.getIndexOfClerk()) {
                 employee.setZeroSalary();
             }
         }
@@ -48,6 +49,25 @@ public class Company {
 
     public int getCompanyIncome() {
         return this.companyIncome;
+    }
+
+    void printTopSalary(int count) {
+        Collections.sort(this.employeeList);
+        Collections.reverse(employeeList);
+        System.out.println("Top month salary: ");
+        for (int i = 0; i < count; i++) {
+            System.out.println(employeeList.get(i));
+        }
+    }
+
+    void printBottomSalary(int count) {
+        Collections.sort(this.employeeList);
+        System.out.println("Bottom month salary: ");
+        for (int i = 0; i < count; i++) {
+            if (employeeList.get(i).getMonthSalary() == 0) {
+                count++;
+            } else System.out.println(employeeList.get(i));
+        }
     }
 
 }
