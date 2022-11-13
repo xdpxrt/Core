@@ -3,7 +3,7 @@ package CompanyStaff;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class TopManager extends Employee implements EmployeeService {
-    private Company bigCompany;
+    private final Company bigCompany;
 
     public TopManager(int indexOfClerk, Company bigCompany) {
         super(indexOfClerk);

@@ -25,26 +25,18 @@ public class Company {
     }
 
     public void hireAll(List<Employee> employeeList) {
-        for (Employee employee : employeeList) {
-            hire(employee);
-        }
+        employeeList.forEach(this::hire);
     }
 
     public void countCompanyIncome() {
-        for (Employee employee : employeeList) {
-            if (employee instanceof Manager) {
-                ((Manager) employee).setIncome();
-                companyIncome += ((Manager) employee).getIncome();
-            }
-        }
+        employeeList.stream().filter(employee -> employee instanceof Manager).forEach(employee -> {
+            ((Manager) employee).setIncome();
+            companyIncome += ((Manager) employee).getIncome();
+        });
     }
 
     public void fire(int indexOfClerk) {
-        for (Employee employee : employeeList) {
-            if (indexOfClerk == employee.getIndexOfClerk()) {
-                employee.setZeroSalary();
-            }
-        }
+        employeeList.stream().filter(employee -> employee.getIndexOfClerk()==indexOfClerk).forEach(EmployeeService::setZeroSalary);
     }
 
     public int getCompanyIncome() {
